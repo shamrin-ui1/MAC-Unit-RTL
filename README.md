@@ -10,8 +10,7 @@ In simple terms:
 
 **Multiply → Add to previous result → Store**
 ## Architecture
-![MAC Unit Block Diagram]
-(mac_block_diagram.png)
+![MAC Unit Block Diagram](./mac_block_diagram.png)
 
 ## Design Specifications
 
@@ -54,8 +53,7 @@ Test cases include:
   
  ## Simulation
  The RTL design was simulated using Icarus Verilog and the waveforms were analysed using GTKWave.
- ![GTKWave Simulation]
- (mac_waveform(2).png)
+ ![GTKWave Simulation](./mac_waveform(2).png)
   
 
 ## Project Status
