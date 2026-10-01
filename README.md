@@ -9,6 +9,9 @@ A MAC unit multiplies two input values and adds the resulting product to a store
 In simple terms:
 
 **Multiply → Add to previous result → Store**
+## Architecture
+![MAC Unit Block Diagram]
+(mac_block_diagram.png)
 
 ## Design Specifications
 
@@ -48,6 +51,12 @@ Test cases include:
 - Reset operation
 - Maximum input case: `255 × 255 = 65025`
 - Zero-input case
+  
+ ## Simulation
+ The RTL design was simulated using Icarus Verilog and the waveforms were analysed using GTKWave.
+ ![GTKWave Simulation]
+ (mac_waveform(2).png)
+  
 
 ## Project Status
 
